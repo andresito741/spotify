@@ -1,0 +1,105 @@
+.fondo{
+    height: 450px;
+    width: 100%;
+    background: rgb(237,232,232);
+    background: linear-gradient(180deg, rgba(237,232,232,1) 0%, rgba(0,0,0,1) 35%);
+    display: inline-flex;
+    /* position: relative; */
+    /* background-image: url("/loguito.jpeg"); */
+    
+}
+/* .fondito{
+    /* background-position: right center; */
+.izquierda{
+    width: 100%;
+    height: 100%;
+    border-right: none;
+}
+/* .derecha{
+    height: 270px;
+    width: auto;
+    background: linear-gradient(180deg, rgba(237,232,232,1) 0%, rgba(0,0,0,1) 58%); */
+
+/* } */
+/* .audifono{
+   
+
+    height: 85%;
+    object-fit: contain;
+    background-color: antiquewhite; */
+
+.disfruta{
+    width: 50%;
+    height: 270px;
+    background: rgb(237,232,232);
+    background: linear-gradient(180deg, rgba(237,232,232,1) 0%, rgba(0,0,0,1) 58%);
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 1.2;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+
+   
+}
+.precio{
+    width: 50%;
+    height: 40px;
+    background-color:  rgba(0,0,0,1) ;
+    padding-left: 70px; 
+    color: white;
+}
+.botones{
+    width: 50%;
+    height: 90px;
+    background-color:  rgba(0,0,0,1) ;
+    display: inline-flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    align-items: center;
+
+
+}
+.prueba{
+    background-color: bisque; /* Morado claro */
+    border: 0.1px solid black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14.8px;
+    cursor: pointer;
+    color: black;
+    height: 44px;
+    border-radius: 20px;
+    width: 290px;
+}
+.planes{
+    background-color: black; /* Morado claro */
+    border: 0.1px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14.8px;
+    cursor: pointer;
+    color: white;
+    height: 44px;
+    border-radius: 20px;
+    width: 210px;
+}
+.prueba:hover{
+    background-color: whitesmoke;
+}
+.planes:hover{
+    background-color: rgb(39, 37, 37);
+}
+.terminos{
+    width: 50%;
+    height: 50px;
+    background-color: rgba(0,0,0,1);
+    font-size: 10.6px;
+    padding-left: 70px;
+    color: white
+}

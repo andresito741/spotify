@@ -1,0 +1,38 @@
+.items-menu{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 35px;
+    padding-left: 0%;
+    display: inline-flex;
+    justify-content: space-around;
+
+}
+.logo{
+    padding-right: 250px;
+}
+.icono{
+    height: 100%;
+    width: 90px;
+    background-color: aqua;
+    object-fit: cover;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.menusito{
+    height: 100%;
+    width: 50%;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu:hover{
+    color: greenyellow;
+    cursor: pointer;
+}
